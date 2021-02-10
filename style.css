@@ -18,12 +18,12 @@
        height: 70px;
            top:0;
      z-index: 9;
+     /* cursor:pointer; */
      
     
-
-
-
 }
+
+
 /* .navbar a {
     /* float: left;
     display: block;
@@ -103,8 +103,18 @@ p{
 .col-2 img{
     max-width: 100%;
     padding: 50px 0px;
+    animation: run 2s linear 1;
     
 
+}
+
+@keyframes run{
+    0%{
+        transform: translate(-100px,-100px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
 }
 .col-2 h1{
     font-size: 50px;
@@ -347,6 +357,7 @@ ul{
     display: none;
 
 }
+
 
 
 /* media query for menu */
